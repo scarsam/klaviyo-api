@@ -33,5 +33,5 @@ export async function POST(request: Request) {
     },
   );
 
-  return NextResponse.json({ status: 'ok' });
+  return NextResponse.json({ status: true });
 }
